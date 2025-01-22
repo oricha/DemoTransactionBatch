@@ -1,9 +1,11 @@
 package org.example.kmuniz.domain;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 import java.math.BigDecimal;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+
 
 @Entity
 public class Account {
